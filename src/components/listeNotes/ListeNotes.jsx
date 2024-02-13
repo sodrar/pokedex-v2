@@ -12,7 +12,7 @@ export function ListeNotes(props) {
     return <div className='list-container'>
         <AddNotes />
         {props.liste.map((note,index) => {
-            return <Note key={index} title={note.title} />
+            return <Note key={index} status={note.status} title={note.title} />
         })}
     </div>
 }

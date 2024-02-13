@@ -2,8 +2,14 @@
     width: 270px;
     height: 378px;
     background-color: aliceblue;
+    border-radius: 6px;
 }
 
 .titre-note {
     color: black;
+}
+
+.heart {
+    color: black;
+    font-size: 125px;
 }

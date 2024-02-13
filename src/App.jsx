@@ -25,7 +25,7 @@ function App() {
     {
       title: "note4",
       content: "IUHIHFCPOISDFPOJSDOJFOSDIJFOPISDJFJOISDJFOISDJFOSJIDFJSOJIDF",
-      status: false
+      status: true
     }
   ])
 
@@ -33,7 +33,7 @@ function App() {
     <h1>Application CLON2 de notes, par Sofian BOUDRAA</h1>
     <div className='home-container' >
       <ListeNotes liste={noteList} />
-      <NoteDisplay title="Test titre" content="ouhdsfhusdpofdspf" />
+      <NoteDisplay note={noteList[1]} />
     </div>
   </>
 }

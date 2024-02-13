@@ -5,3 +5,19 @@
     border-radius: 6px;
     color: black;
 }
+
+.note-content {
+    font-size: 3.2em;
+}
+
+#btn-maj {
+    font-size: 3.2em;
+}
+
+.note-content {
+    background-color: #EBD76F;
+    border: none;
+    margin-bottom: 50px;
+    overflow: auto;
+    height: 500px;
+}
