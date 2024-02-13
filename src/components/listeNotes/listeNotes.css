@@ -3,4 +3,18 @@
     height: 990px;
     margin-top: 33px;
     background-color: coral;
+    border-radius: 6px;
+}
+
+.list-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 14px;
+    gap: 90px;
+    overflow: scroll;
+}
+
+.list-container::-webkit-scrollbar {
+    display: none;
 }
