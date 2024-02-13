@@ -45,6 +45,9 @@
   height: 1024px;
   background-color: #EBD76F;
   border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 
