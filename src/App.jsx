@@ -6,7 +6,28 @@ import { ListeNotes } from './components/listeNotes/ListeNotes'
 
 function App() {
 
-  const [noteList, setNoteList] = useState([])
+  const [noteList, setNoteList] = useState([
+    {
+      title: "note1",
+      content: "IUHIHFCPOISDFPOJSDOJFOSDIJFOPISDJFJOISDJFOISDJFOSJIDFJSOJIDF",
+      status: false
+    },
+    {
+      title: "note2",
+      content: "IUHIHFCPOISDFPOJSDOJFOSDIJFOPISDJFJOISDJFOISDJFOSJIDFJSOJIDF",
+      status: false
+    },
+    {
+      title: "note3",
+      content: "IUHIHFCPOISDFPOJSDOJFOSDIJFOPISDJFJOISDJFOISDJFOSJIDFJSOJIDF",
+      status: false
+    },
+    {
+      title: "note4",
+      content: "IUHIHFCPOISDFPOJSDOJFOSDIJFOPISDJFJOISDJFOISDJFOSJIDFJSOJIDF",
+      status: false
+    }
+  ])
 
   return <>
     <h1>Application CLON2 de notes, par Sofian BOUDRAA</h1>

@@ -2,14 +2,17 @@ import './listeNotes.css'
 import { AddNotes } from '../addNotes/AddNotes'
 import { Note } from '../note/Note'
 
+export function ListeNotes(props) {
+
+/*     const liste = props.liste.map(note => {
+        return <Note title={note.title} />
+    }) */
 
 
-export function ListeNotes() {
     return <div className='list-container'>
         <AddNotes />
-        <Note/>
-        <Note/>
-        <Note/>
-        <Note/>
+        {props.liste.map((note,index) => {
+            return <Note key={index} title={note.title} />
+        })}
     </div>
 }

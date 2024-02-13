@@ -10,9 +10,10 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 14px;
-    gap: 90px;
+    justify-content: center;
+    gap: 80px;
     overflow: scroll;
+    padding-top: 25px;
 }
 
 .list-container::-webkit-scrollbar {
