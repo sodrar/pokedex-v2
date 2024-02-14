@@ -8,11 +8,14 @@ export function ListeNotes(props) {
         return <Note title={note.title} />
     }) */
 
+    const passLike = (status,id) => {
+        props.setLike(status,id)
+    }
 
     return <div className='list-container'>
         <AddNotes />
         {props.liste.map((note,index) => {
-            return <Note key={index} status={note.status} title={note.title} />
+            return <Note passLike={passLike} key={index} status={note.status} title={note.title} />
         })}
     </div>
 }
